@@ -1,0 +1,230 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333; /* Text color for the content */
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul.menu {
+    list-style: none;
+}
+
+nav ul.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero section styles */
+.hero {
+    background: url('background.jpg') center/cover no-repeat; /* Add your image URL here */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Content section styles */
+.content {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Project card styles */
+.project-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    max-width: 100%;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .hero {
+        height: 300px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
+
+
+.profile-image {
+    border: 4px solid #fff; /* Border around the profile image */
+    border-radius: 50%; /* Make it circular */
+}
+
+.profile-image img {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #0077B5; /* LinkedIn color */
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+/* Twitter */
+.social-links a:nth-child(2) {
+    color: #1DA1F2; /* Twitter color */
+}
+
+/* GitHub */
+.social-links a:nth-child(3) {
+    color: #211F1F; /* GitHub color */
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Project image styles */
+.project-image {
+    width: 200px;
+    height: 200px; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.project-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Project image styles */
+.project-image {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 200px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+}
+
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+button {
+    background-color: #0077B5; /* LinkedIn color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #005a9e; /* Slightly darker color on hover */
+}
